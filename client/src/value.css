@@ -1,0 +1,19 @@
+.box{
+    display: flex;
+  margin: 10px auto;
+  flex-direction: column;
+  width: 180px;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 500;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+
+   .txt{
+    font-family:'Avenir LT W01 95 Black';
+    background-color: #ffffff; 
+    font-weight: 500;
+}
+

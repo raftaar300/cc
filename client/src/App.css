@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.App {
+  border: 2px solid #ffffff;
+  background-color: #ffffff;
+  width: 257px;
+  height: 130px;
+  margin: auto;
+  margin-top: 40vh;
+  box-shadow: 0 0 4px 0;
+}
+
+.save {
+  display: flex;
+  visibility: hidden;
+  width: 180px;
+  text-align: center;
+  margin: 10px auto;
+  font-family: sans-serif;
+  background-color: #ffffff;
+}
+
+.saving {
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  border-top: 2px solid #000000;
+  width: 16px;
+  height: 16px;
+  animation: spin 1s linear infinite;
+  margin-right: 10px;
+  background-color: #ffffff;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.show {
+  visibility: visible;
+}

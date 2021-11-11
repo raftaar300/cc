@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+}
+
+.App {
+  border: 2px solid #ffffff;
+  background-color: #ffffff;
+  width: 257px;
+  height: 130px;
+  margin: auto;
+  margin-top: 40vh;
+  box-shadow: 0 0 4px 0;
+}

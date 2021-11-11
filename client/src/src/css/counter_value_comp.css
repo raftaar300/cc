@@ -1,0 +1,15 @@
+.counter_value_comp {
+  display: flex;
+  margin: 10px auto;
+  flex-direction: column;
+  width: 180px;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 500;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.counter_value_text {
+  background-color: #ffffff;
+}
